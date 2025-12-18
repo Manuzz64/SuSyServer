@@ -11,14 +11,14 @@ echo A) ... .. --  B) -. .- ---
 echo ===================================================
 set /p ans=Resposta: 
 
-if /i "%ans%"=="B" goto q2
+if /i "%ans%"=="A" goto q2
 goto wrong
 
 :q2
 cls
 echo Sala 3 ============================================
 echo Pergunta 2:
-echo Quebec Uniform Alfa November Tango Oscar (space) é (space) Quebec Uniform Echo (space) Echo Uniform (space) Tango Echo (space) Alfa Mike Oscar ??
+echo Quebec Uniform Alfa November Tango Oscar (space) é (space) Quebec Uniform Echo (space) Echo Uniform (space) Tango Echo (space) Alfa Mike Oscar ?
 echo.
 echo A) Mike Uniform India Tango Oscar
 echo B) India Mike Echo November Sierra Oscar
@@ -27,44 +27,32 @@ echo D) India November Foxtrot India November India Tango Alfa Mike Echo Novembe
 echo ===================================================
 set /p ans=Resposta: 
 
-if /i "%ans%"=="C" goto q3
+if /i "%ans%"=="D" goto q3
 goto wrong
 
 :q3
 cls
 echo Sala 3 ============================================
 echo Pergunta 3:
-echo PAU?
+echo U+51 U+75 U+65 U+6D U+20 U+E9 U+73 U+20 U+74 U+75 U+3F U+3F U+3F
 echo.
-echo A) lo         B) o meu
-echo C) o nosso    D) o teu
+echo A) U+41 U+20 U+53 U+75 U+73 U+61 U+6E U+61
+echo B) U+41 U+20 U+4D U+49 U+4E U+48 U+41 U+20 U+4D U+55 U+4C U+48 U+45 U+52 U+20 U+50 U+45 U+52 U+46 U+45 U+49 U+54 U+41
+echo C) U+41 U+75 U+74 U+69 U+73 U+6D U+6F U+20 U+65 U+6D U+20 U+70 U+65 U+73 U+73 U+6F U+61
 echo ===================================================
 set /p ans=Resposta: 
 
-if /i "%ans%"=="A" goto q4
-goto wrong
-
-:q4
-cls
-echo Sala 3 ============================================
-echo Pergunta 4:
-echo T-Shirt?
-echo.
-echo A) Teacher    B) Techer
-echo ===================================================
-set /p ans=Resposta: 
-
-if /i "%ans%"=="A" goto victory
+if /i "%ans%"=="B" goto victory
 goto wrong
 
 :wrong
 echo.
-echo Errado!
+echo OOODARRE
 pause
 exit
 
 :victory
 cls
-echo .onion/742617000027.html
+echo lmth.orb-gal-lluf-nam-tigel/
 pause
 exit
