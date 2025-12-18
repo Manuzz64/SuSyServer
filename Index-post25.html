@@ -29,12 +29,12 @@
          <div id="next" style="display: none">
           <div class="msg">
             Wow! Demorou mas conseguiste<br>
-            Mas ainda não é o dia certo, recarrega a pagina, e descobre todas as imagens!
+            Pronta para a proxima sala?
           </div>
           <input style="display: none; width: 0; height: 0; padding: 0; margin: 0;"/>
           
-          <a href="#" id="continue_button">
-                <button>Reload</button>
+          <a href="text.html" id="continue_button">
+                <button>Continua</button>
           </a>
         </div>
       </div>
@@ -261,7 +261,7 @@
           }
 
           function basicLoad(location) {
-            var possible = ['hehe','love','love1','love2','agua','agua1','agua2'];
+            var possible = ['hehe'];
             var file = 'img/' + possible[Math.floor(Math.random() * possible.length)] + '.jpg'
             return {
               file: file,
